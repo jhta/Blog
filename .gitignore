@@ -1,2 +1,4 @@
-
+core/built/
+core/share/
+content/data/
 node_modules/
