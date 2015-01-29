@@ -162,6 +162,24 @@ table { border-collapse: collapse; border-spacing: 0; }
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
  
 
+.author-social > a> .fa{
+    margin: 0 2px;
+    font-size: 22px;
+}
+.author-social > a> .fa-twitter{
+  color: #00aced;
+}
+.author-social > a> .fa-flickr{
+  color: #ff0084;
+}
+.author-social > a> .fa-linkedin{
+  color: #007bb6;
+}
+.author-social > a> .fa-google-plus-square{
+  color: #dd4b39;
+}
+
+
 /* Import the font file with the icons in it */
 @font-face {
     font-family: "casper-icons";
@@ -1231,11 +1249,11 @@ body:not(.post-template) .post-title {
 }
 
 .author-meta {
-    margin: 1.6rem 0;
+    margin: 1 0;
 }
 /* Location, website, and link */
 .author-profile .author-meta {
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
